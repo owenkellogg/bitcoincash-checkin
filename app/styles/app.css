@@ -1,0 +1,39 @@
+
+body, a {
+  text-align:center;
+  background-color:#f8931d;
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  padding:3em;
+}
+
+img {
+  margin-top:3em;
+  width:800px;
+}
+
+input {
+  background-color:#f8931d;
+  height: 0px;
+  width:50%;
+  text-align:center;
+  margin-top:5em;
+  color: #f8931d;
+  outline: none;
+}
+
+    input:focus, textarea:focus, select:focus{
+        outline: none;
+          border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: Ubuntu;
+  font: Ubuntu;
+  color: white;
+  font-weight: bold;
+}
+

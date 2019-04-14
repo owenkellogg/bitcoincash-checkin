@@ -1,0 +1,11 @@
+{{outlet}}
+
+<h1>CHECK IN:</h1>
+<h2>SCAN BITCOIN CASH ADDRESS</h2>
+
+<img src='/barcode-scanner.png'>
+
+<form {{action "checkin" on="submit"}}>
+  {{input (action "keyup" on="keyup") value=scannedAddress autofocus="true" id="scaninput" }}
+</form>
+
